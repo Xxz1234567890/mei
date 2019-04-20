@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+public class shuzu {
+    public static void main(String[] args) {
+        ArrayList<Integer> a1 = new ArrayList<Integer>();
+        ArrayList<Float> a2 = new ArrayList<Float>();
+        ArrayList<Object> a3 = new ArrayList<Object>();
+        int a = 1;                       //声明和定义四种数据类型
+        float b = 2.1f;
+        String c = "abc";
+        double d = 10.2;
+        if (c instanceof String) {               //判断c是否属于String类型
+            System.out.println("先判断c是否为字符串");
+            System.out.println("loading...");
+            System.out.println("c是字符串，被pass！");
+        }
+        int f = (int) a;                      //强制转换int类型
+        if (f == a && f != b && f != d) {
+            System.out.println("a为整数型");
+        }
+        ;
+        float g = (float) b;                //强制转换浮点型
+        if (g != a && g == b & g != d) {
+            System.out.println("b为float型");
+        }
+        double h =(double) d;
+        if(h!=a&&h!=b&&h==d){
+            System.out.println("d为双精度，被pass！");
+        }
+        a1.add(a);               //添加元素
+        a2.add(b);
+        System.out.println(a1+""+a2);           //打印筛选出来的元素
+    }
+
+}
+    （！！！ 我这个作业目前是凌晨五点四十写完的，我觉得第一项作业真的很考验水平，也许是我还没有把java的知识点掌握透，尽管花了很久很久的时间，
+     这次的作业并不理想！！！因为很想睡觉，而且上午九点钟还要起来去解放碑所以我不太清楚我上传作业的格式是否正确，请原谅吧）
+       首先我从第一项作业中了解到了，有很多新方法，比如我在察州资料时，发现了invoke（）方法，他有着传值的妙处，但是我一直想把这个方法用在
+       这项作业中但是我发现一直要报错，所以我就一直换方法。还有，在这项作业中我熟悉了抛出异常的知识，强制转换类型，List的用处等等，
+       在这一周中 我的进度是：看了一遍反射，有复习了一遍，然后再去看泛型，周三的时候开始思考题目，最后选择了第一项作业来做，一直找不到突破点
+       而且不知道有哪些函数方法发可以调用，所以需要不停的像思路，换思路，还有斟酌网上的代码。
+       我希望我在下一次作业可以开始着手做关于安卓项目的作业，并在此之前也巩固一下java知识，希望学长不会因为我的这次作业完成的不能让你们满意和提交
+       的作业不规范而把我刷下去！！
+    
